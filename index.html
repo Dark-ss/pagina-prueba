@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Registro</title>
+</head>
+
+<body>
+    <header>
+        <nav class="encabezado__menu">
+            <a class="encabezado__menu__link" href="index.html">Home</a>
+            <a class="encabezado__menu__link" href="about.html">Sobre mi</a>
+            <a class="encabezado__menu__link" href="comments.html">Comentarios</a>
+        </nav>
+    </header>
+    <main class="presentacion">
+        <section class="presentacion__contenido formulario">
+            <h1 class="presentacion__contenido__titulo">Sugerencias y comentarios</h1>
+            <form name="presentacioncv" netlify>
+                <input class="box-send" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+                <br>
+                <input class="box-send" type="email" name="email" id="email" placeholder="Ingrese su correo">
+                <br>
+                <textarea class="box-send" name="mensaje" id="mensaje" cols="30" rows="10"
+                    placeholder="Escriba su comentario o sugerencia"></textarea>
+                <br>
+                <input class="button" type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer class="footer-comentarios">
+        <p>&copy; Todos los derechos reservados a Juan camilo Calderón</p>
+    </footer>
+</body>
+
+</html>
